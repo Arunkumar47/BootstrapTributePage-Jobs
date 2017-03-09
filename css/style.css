@@ -1,0 +1,47 @@
+.jumbotron{
+	background-image: url("../image/steve.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 40% 40%;
+	padding: 150px 150px 150px 100px;
+	box-shadow: 0px 0px 30px #ededed;
+	margin-bottom: 0;
+}
+
+.heart{
+	color: #563D7C;
+}
+
+
+blockquote{
+	transition: transform 0.1s linear;
+}
+
+blockquote:hover{
+	transform: scale(1.02);
+	box-shadow: 0px 0px 30px #ededed;
+}
+
+
+
+@media screen and (max-width: 572px){
+	.jumbotron{
+		padding-left: 39px;
+		background-position: top center;
+	}
+}
+
+
+@media screen and (max-width: 320px){
+	.jumbotron{
+		background-position: 55% 40%;
+		padding-left: 10px;
+	}
+}
+
+@media screen and (max-width: 375px){
+	.jumbotron{
+		background-position: 55% 40%;
+	}
+}
+
